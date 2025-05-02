@@ -1,0 +1,28 @@
+/*Aqui use un poco de css para hacer el grid de 3 imagenes por fila porque ya me estaba quemando con bootstrap y no me estaba quedando como yo queria.*/
+.fotos-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.fotos-grid div {
+	position: relative;
+    width: 100%;
+	padding-top: 100%;
+}
+
+.fotos-grid img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+}
+
+.nav-tabs .nav-link {
+    color: gray; 
+  }
+
+.nav-tabs .nav-link.active {
+    color: blue 
+  }
